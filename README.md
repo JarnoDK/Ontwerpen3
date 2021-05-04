@@ -26,8 +26,8 @@
 |OOIII_ProxyRemoteServer|Proxy|-|
 |OOIII_TemplateCompleted|Template|-|
 |Template_pattern|Template| PDF is zelf toegevoegd (buiten les) |
-
-
+|OOIII_StockSystemClientUserStap3|command + proxy|StockSystemServer moet draaien|
+|OOIII_StockSystemServerUserStap3|command + proxy|-|
 
 
 
