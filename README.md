@@ -35,4 +35,5 @@
 
 # Notities
 
-*Op het examen zal bij de iterator pattern vermeld worden indien er gebruikt mag worden gemaakt van de java built-in iterator of een interface klasse  
+* Op het examen zal bij de iterator pattern vermeld worden indien er gebruikt mag worden gemaakt van de java built-in iterator of een interface klasse  
+
