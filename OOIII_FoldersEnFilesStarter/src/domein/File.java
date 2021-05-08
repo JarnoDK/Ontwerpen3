@@ -1,5 +1,7 @@
 package domein;
 
+import java.util.Iterator;
+
 public class File extends AbstractFile {
 
     private int kbytes;
@@ -19,11 +21,25 @@ public class File extends AbstractFile {
         System.out.println(indent + getName() + " (" + getKBytes() + " kb)");
     }
 
+    @Override
     public int getKBytes() {
-        return kbytes;
+    	// TODO Auto-generated method stub
+    	return kbytes;
     }
 
     private void setKBytes(int bytes) {
         this.kbytes = bytes;
     }
+    
+    // geen lijst met abstract files, dus aanroepen van een null iterator
+	public Iterator<AbstractFile> createIterator() {
+		return new NullIterator();
+	}
+	
+	// controleert of het bestand van het type file is en overschrijft deze in abstract file
+	@Override
+	public boolean isFile() {
+		// TODO Auto-generated method stub
+		return true;
+	}
 }

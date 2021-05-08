@@ -13,13 +13,13 @@
 |OOIII_Composite|Composite|-|
 |OOIII_DocumentFactoryStarter|Factory|-|
 |OOIII_DocumentSystemFXStart|Command|-|
-|OOIII_FoldersEnFilesStarter| ?? |geen idee welke dp|
+|OOIII_FoldersEnFilesStarter|Composiet + iterator|-|
 |OOIII_GraphicsStarter|Composite|-|
 |OOIII_GUIAbstractFactoryStarter|Factory|-|
 |OOIII_Iterator_java_utilTODO|iterator|-|
 |OOIII_Iterator_Start|Iterator| zelfde als OOIII_Iterator_java_utilTODO maar op andere manier| 
 |OOIII_MealAppStarter|Builder|-|
-|OOIII_PageSystem_Starter|??|geen idee welke dp|
+|OOIII_PageSystem_Starter|Factory method||
 |OOIII_ProjectOrganizerStarter|Template|-|
 |OOIII_ProxyPatternFolderStarter|Proxy|-|
 |OOIII_ProxyRemoteClient|Proxy|proxy server moet draaien|
@@ -28,6 +28,11 @@
 |Template_pattern|Template| PDF is zelf toegevoegd (buiten les) |
 |OOIII_StockSystemClientUserStap3|command + proxy|StockSystemServer moet draaien|
 |OOIII_StockSystemServerUserStap3|command + proxy|-|
+|OOIII_PegStarter|Adapter pattern|-|
+|OOIII_ReaderWriter|Abstract factory|-|
+|OOIII_ChannelStarter|Iterator|-|
+|OOIII_GameEngine|Template|-|
 
+# Notities
 
-
+*Op het examen zal bij de iterator pattern vermeld worden indien er gebruikt mag worden gemaakt van de java built-in iterator of een interface klasse  

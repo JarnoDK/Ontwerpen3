@@ -33,7 +33,7 @@ public class Directory extends AbstractFile{
         // verhoog aantal tabs
         level++;
         // print map naam
-        System.out.println(indent + this.getName() + ":");
+        System.out.println(indent + "Directory: " + this.getName() + ":");
 
         // voor elk bestand, print de volgende abstracte files (directory of file)
         for (AbstractFile obj : files)
@@ -42,6 +42,12 @@ public class Directory extends AbstractFile{
         }
         	
     }
+
+    // methode create iterator om over de elementen te gaan
+	public Iterator<AbstractFile> createIterator() {
+		return files.iterator();
+	}
+	
 
     
 }
