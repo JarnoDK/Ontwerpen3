@@ -36,4 +36,7 @@
 # Notities
 
 * Op het examen zal bij de iterator pattern vermeld worden indien er gebruikt mag worden gemaakt van de java built-in iterator of een interface klasse  
-
+* Bij het builder pattern wordt er duidelijk gemaakt welke variant te gebruiken, anders is het eigen keus.  
+  * Director: Alle benodigdheden liggen vast, deze moeten enkel overschreven worden. 
+  * Inner klasse: Veel parameters, niet allemaal verplicht, controle gebeurd in de build klasse voor de verplichte parameters 
+  *  
